@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url(/projetos/LandingPage/img/backgroundLp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  width: 450px;
+}
+
+.container1 {
+  background-color: rgba(19, 18, 18, 0.9450980392);
+  height: auto;
+  color: white;
+}
+
+.top-logo {
+  width: 180px;
+}
+
+.fotter {
+  color: white;
+}
+
+.text-center button {
+  color: #ff0043;
+  border: 1px solid #ff0043;
+}
+.text-center button:hover {
+  background-color: #ff0043;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

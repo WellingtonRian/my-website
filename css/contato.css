@@ -1,0 +1,151 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: Consolas 'Courier New' monospace;
+    font-size: 24pt;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+body {
+    background-color: #111111;
+    animation: animacao;
+    animation-duration: 3s;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+.container-2 {
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+}
+ h1 {
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 24pt;
+ }
+h2 {
+    font-size: 40pt;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 16pt;
+    font-weight: 200;
+}
+#email2 {
+    font-style: italic;
+    margin-top: 10px;
+    color: #8a2be2;
+}
+
+form {
+    overflow: hidden;
+    padding: 10px;
+    background-color: #2c2b2b62;
+    border-radius: 15px;
+    
+}
+#name {
+    width: 350px;
+    color:rgba(80, 80, 80, 0.808);
+    font-size: 16pt;
+}
+#email {
+    width: 350px;
+    color:rgba(80, 80, 80, 0.808);
+    font-size: 16pt;
+}
+
+#message {
+    width: 350px;
+    color:rgba(80, 80, 80, 0.808);
+    font-size: 16pt;
+}
+
+button {
+    width: 355px;
+    background-color: #8a2be2;
+    border: none;
+}
+
+.part1 {
+    width: 40%;
+}
+
+.form1 {
+    width: 40%;
+    text-align: center;
+}
+
+.bolinha {
+    width: 5px;
+    height: 5px;
+    background-color: #8a2be2;
+    border-radius: 50%;
+    box-shadow: 200px 80px rgb(145, 61, 117), 300px 80px rgb(204, 22, 165), 500px 120px violet, 300px 20px white, 450px 120px white, 700px 100px white, 900px 80px rgb(204, 22, 165),900px 120px rgb(204, 22, 165),1000px 80px rgb(204, 22, 165),1200px 80px rgb(204, 22, 165),900px 200px rgb(138, 90, 127),1300px 300px rgb(247, 213, 239),1200px 350px rgb(204, 22, 165);
+    position: absolute;
+    animation: anim-bol 15s linear infinite ; /* Adiciona a animação e define a direção */
+    z-index: -2;
+}
+
+@keyframes anim-bol {
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translateY(-1000px);
+    }
+}
+
+@media (max-width: 820px){
+    main {
+        width: 100%;
+    }
+    .container-2 {
+        display: block;
+        margin-top: 200px;
+        align-items: center;
+    }
+    .part1 {
+        width: 80%;
+        text-align: center;
+    }
+    h1 {
+        font-size: 40pt;
+    }
+    #email2 {
+        font-size: 16pt;
+    }
+    h2 {
+        font-size: 28pt;
+        font-weight: 600;
+    }
+    p {
+        font-size: 24pt;
+        text-align: center;
+    }
+    
+    .form1 {
+        width: 90%;
+        text-align: center;
+        
+    }
+    form {
+        display: block;
+    }
+}
+@media (max-width: 450px){
+    h1 {
+        font-size: 24pt;
+    }
+    h2 {
+        font-size: 24pt;
+    }
+    p {
+        font-size: 16pt;
+    }
+}

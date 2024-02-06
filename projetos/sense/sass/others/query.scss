@@ -1,0 +1,252 @@
+@media (max-width: 1200px){
+    
+    .depoiments{
+        gap: 20px;
+
+        .item-depoi{
+            width: 300px;
+            p{
+                padding-right: 5px;
+            }
+        }
+        .item-principal{
+            width: 500px;
+            padding: 10px;
+            p{
+                padding-right: 10px;
+            }
+        }
+        .stars{
+            svg{
+                width: 10px;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 1000px){
+    .depoiments{
+        .item-depoi{
+            display: none;
+        }
+    }
+    .contente-two{
+        .item{
+            width: 350px;
+        }
+    }
+    .container-one{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+        padding-top: 50px;
+        column-gap: 100px;
+        .headline{
+            width: 90%;
+        }
+        .image-principal{
+            display: flex;
+            justify-content: center;
+            margin-top: 0;
+        }
+    }
+    .credibilit{
+        ul{
+            justify-content: center;
+            text-align: center;
+        }
+    }
+    .btn-principal{
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .tree{
+        h2{
+            font-size: 18pt;
+        }
+        h3{
+            font-size: 16pt;
+        }
+    }
+    .content-oti{
+        h2{
+            font-size: 18pt;
+        }
+        p{
+            font-size: 12pt;
+        }
+        img{
+            width: 30%;
+        }
+    }
+}
+@media (max-width: 790px){
+    .container-one{
+        height: auto;
+        padding-top: 50px;
+        .headline{
+            width: 100%;
+        }
+    }
+    .image-principal{
+        img{
+            width: 100%;
+        }
+    }
+    .image-two{
+        img{
+            width: 80%;
+        }
+    }
+    .contente-two{
+        .item-2{
+            margin-left: 0px;
+        }
+    }
+    .content-two{
+        p{
+            padding: 0;
+        }
+    }
+    .tree{
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        .content-one{
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+        }
+        .contente-two{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding-top: 20px;
+        }
+    }
+    .container-six{
+        flex-direction: column;
+        text-align: center;
+    }
+    .for{
+        flex-direction: column-reverse;
+        .content-oti{
+            display: flex;
+            text-align: center;
+            p{
+                padding: 0px;
+            }
+            img{
+                display: none;
+            }
+        }
+    }
+    .image-oti{
+        display: flex;
+        justify-content: center;
+    }
+    .depoiments{
+        align-items: center;
+        .item-principal{
+            width: 300px;
+        }
+    }
+    .container-six{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 20px;
+        h2{
+            font-size: 16pt;
+        }
+        h3{
+            font-size: 12pt;
+        }
+        p{
+            font-size: 10pt;
+        }
+
+    }
+    .ultima-image{
+        display: flex;
+        img{
+            width: 200px;
+            padding-left: 40px;
+        }
+        
+    }
+}
+@media (max-width: 640px){
+
+    .container-one{
+        padding-top: 20px;
+        height: auto;
+        .headline{
+            width: 80%;
+        }
+    }
+    .btn-principa{
+        padding-top: 20px;
+    }
+    .credibilit{
+        ul{
+            flex-wrap: wrap;
+        }
+    }
+}
+@media (max-width: 420px){
+    .container-one{
+        height: auto;
+        padding-top: 40px;
+        column-gap: 20px;
+        .image-principal{
+            .rocket{
+                width: 250px;
+            }
+        }
+    }
+    .btn-principa{
+        padding-top: 20px;
+    }
+}
+@media (max-width: 350px){
+    .btn-principa{
+        margin-bottom: -40px;
+    }
+    .container-one{
+        padding-top: 20px;
+        height: auto;
+        .headline{
+            width: 90%;
+            h1{
+                font-size: 24pt;
+            }
+            h2{
+                font-size: 16pt;
+            }
+            
+        }
+        .image-principal{
+            width: 300px;
+            margin-top: 10px;
+        }
+    }
+    .contente-two{
+        .item{
+            width: 300px;
+        }
+    }
+    .fot-flex{
+        .ul-cont{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+    }
+    
+}

@@ -1,0 +1,53 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: Consolas 'Courier New' monospace;
+    font-size: 24pt;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+body {
+    background-color: #111111;
+    animation: animacao;
+    animation-duration: 3s;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+h1{
+    font-size: 40pt;
+    text-align: center;
+}
+h2 {
+    font-size: 24pt;
+    text-align: center;
+}
+#res {
+    font-size: 18pt;
+    color: #8a2be2 ;
+    text-align: center;
+    font-style: italic;
+}
+.bolinha {
+    width: 5px;
+    height: 5px;
+    background-color: #8a2be2;
+    border-radius: 50%;
+    box-shadow: 200px 80px rgb(145, 61, 117), 300px 80px rgb(204, 22, 165), 500px 120px violet, 300px 20px white, 450px 120px white, 700px 100px white, 900px 80px rgb(204, 22, 165),900px 120px rgb(204, 22, 165),1000px 80px rgb(204, 22, 165),1200px 80px rgb(204, 22, 165),900px 200px rgb(138, 90, 127),1300px 300px rgb(247, 213, 239),1200px 350px rgb(204, 22, 165);
+    position: absolute;
+    animation: anim-bol 15s linear infinite ; /* Adiciona a animação e define a direção */
+    z-index: -2;
+}
+
+@keyframes anim-bol {
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translateY(-1000px);
+    }
+}

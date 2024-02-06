@@ -1,0 +1,44 @@
+@media (max-width: 850px){
+    .tex{
+        width: 80%;
+        h5{
+            line-height: 30pt;
+        }
+    }
+    .flex-list1-0{
+
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px){
+    .bg01{
+        h1{
+            font-size: 50pt;
+        }
+    }
+    .tex{
+        width: 90%;
+        h5{
+            line-height: 20pt;
+        }
+    }
+    .container-header{
+        text-align: center;
+        flex-direction: column;
+        .links{
+            padding-top: 20px;
+            justify-content: center;
+        }
+    }
+    .item-list{
+        .item{
+            h1{
+                font-size: 30pt;
+            }
+            h3{
+                font-size: 8pt;
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/contato.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main id="contato-style">
+        <div class="container-2">
+            <div class="part1">
+                <h1>Me envie um email</h1>
+                <h2>Conte-me sobre o seu projeto.</h2>
+                <p>Vamos criar algo juntos!</p>   
+                <p id="email2">contato@wellingtonrian.com</p>
+            </div>
+            <div class="form1">
+                <form
+                    action="https://formsubmit.co/contato@wellingtonrian.com"
+                    method="POST"
+                    class="form"
+                    >
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" required /><br>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required /><br>
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" required></textarea><br>
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input
+                        type="hidden"
+                        name="_next"
+                        value="https://wellingtonrian.com/obrigado.html"
+                    />
+                    <button type="submit" >Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <div class="bolinha">
+    </div>
+</body>
+</html>
